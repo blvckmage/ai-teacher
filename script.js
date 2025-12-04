@@ -83,7 +83,7 @@ function initTeacherPage() {
     addMessage('system', '... думает ...');
 
     try {
-      const res = await fetch('http://localhost:3000/api/ask', {
+      const res = await fetch('/api/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ subject, question })
