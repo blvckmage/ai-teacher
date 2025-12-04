@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Выбор предмета — ИИ учитель</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+  <body>
+  <main class="container">
+    <h1>Выберите предмет</h1>
+    <div class="subject-list">
+      <button onclick="selectSubject('math')" class="subject-btn math">
+        <i class="icon fas fa-calculator"></i>
+        <span class="label">Математика</span>
+      </button>
+      <button onclick="selectSubject('physics')" class="subject-btn physics">
+        <i class="icon fas fa-atom"></i>
+        <span class="label">Физика</span>
+      </button>
+      <button onclick="selectSubject('russian')" class="subject-btn russian">
+        <i class="icon fas fa-book"></i>
+        <span class="label">Русский язык</span>
+      </button>
+      <button onclick="selectSubject('kazakh')" class="subject-btn kazakh">
+        <i class="icon fas fa-language"></i>
+        <span class="label">Казахский язык</span>
+      </button>
+      <button onclick="selectSubject('history')" class="subject-btn history">
+        <i class="icon fas fa-clock"></i>
+        <span class="label">История Казахстана</span>
+      </button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
